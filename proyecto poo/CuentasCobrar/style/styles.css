@@ -1,0 +1,73 @@
+body {
+    background-image: url('./5e910ec95ebb204e5e0afdbf79cc140f.jpg'); /* URL de la textura oscura */
+    background-repeat: no-repeat; /* Evita repetir la textura */
+    background-size: cover; /* Asegura que la textura cubra toda la pantalla */
+    color: #00c3ff80;
+    font-family: Arial, sans-serif;
+    margin: 0; /* Evita márgenes adicionales */
+    padding: 0; /* Evita rellenos adicionales */
+    display: flex; /* Usa flexbox para centrar el contenedor del formulario */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Ocupa todo el alto de la ventana del navegador */
+}
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form {
+    display: inline-block;
+    width: 400px;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: #282828;
+    box-shadow: 0px 0px 20px #00c3ff80;
+}
+
+.form p {
+    padding: 2%;
+    margin: 10px 10px;
+
+}
+
+.form input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin: 5px 0;
+    margin-left: 2%;
+    border: none;
+    border-radius: 10px;
+    background-color: #c6c6f123;
+    color: #00c3ff80;
+}
+
+.form input[type="number"] {
+    width: 80%;
+    padding: 10px;
+    margin: 5px 0;
+    margin-left: 2%;
+    border: none;
+    border-radius: 10px;
+    background-color: #c6c6f123;
+    color: #00c3ff80;
+}
+
+.form input[type="submit"] {
+    width: 80%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #c6c6f123;
+    color: #00c3ff80;
+    cursor: progress;
+    transition: 0.3s;
+}
+
+.form input[type="submit"]:hover {
+    background-color: #3232cc23;
+    color: #c0bdeb;
+}
